@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Exercise Timer</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Exercise Time!</h1>
+        <div class="current-set" id="currentSet"></div>
+        <div class="exercise-info" id="exerciseInfo"></div>
+        <div class="timer-display" id="timer">00:30</div>
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+        <div class="buttons">
+            <button id="startBtn">Start</button>
+            <button id="stopBtn" disabled>Stop</button>
+        </div>
+    </div>
+    <audio id="countdownSound" src="audio321.mp3" preload="auto"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
